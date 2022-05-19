@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: 'Serithai', sans-serif;
+  font-family: 'Serithai', sans-serif !important;
   overflow-x: hidden;
 }
 @font-face {
@@ -38,4 +38,10 @@ h2 {
 }
 .container-text h1 {
   text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+#app {
+  margin-top: 6vh;
 }
