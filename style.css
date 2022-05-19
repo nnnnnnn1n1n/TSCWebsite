@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  font-family: 'Serithai', sans-serif;
+}
+h1,
+h2 {
+  font-family: Lato;
+}
+.banner {
+  min-height: 60vh;
+  /* background: url('https://firebasestorage.googleapis.com/v0/b/techasomboonchai.appspot.com/o/20200725_185120.jpg?alt=media&token=70c2411a-f70d-4b13-8bba-839d4af6daff');
+  background-size: cover;*/
+  position: relative;
+}
+.banner img {
+  width: auto;
+  height: 60vh;
+  filter: grayscale(50%);
+}
+
+.container-text {
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
+  z-index: 999;
+  color: white;
+}
+.container-text h1 {
+  text-align: left;
+}
