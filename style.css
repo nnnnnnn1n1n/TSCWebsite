@@ -1,30 +1,47 @@
 body {
   margin: 0px;
-  font-family: 'Serithai', sans-serif;
+  font-family: 'Serithai', sans-serif !important;
+  overflow-x: hidden;
 }
-h1,
+@font-face {
+  font-family: 'Serithai';
+  src: url('https://nnnnnnn1n1n.github.io/TSCWebsite/font/Serithai-Regular.ttf');
+}
+h1 {
+  font-size: 82px;
+  margin-bottom: 5px;
+}
+/* h1,
 h2 {
   font-family: Lato;
-}
+} */
 .banner {
   min-height: 60vh;
-  /* background: url('https://firebasestorage.googleapis.com/v0/b/techasomboonchai.appspot.com/o/20200725_185120.jpg?alt=media&token=70c2411a-f70d-4b13-8bba-839d4af6daff');
-  background-size: cover;*/
   position: relative;
+  background: url('https://firebasestorage.googleapis.com/v0/b/techasomboonchai.appspot.com/o/20200725_185120.png?alt=media&token=aebb9a66-0eeb-41f4-92b5-9fcef8bbb5c7');
+  background-size: cover;
 }
-.banner img {
-  width: auto;
-  height: 60vh;
-  filter: grayscale(50%);
-}
+/* .banner img {
+  transform: scale(1.5);
+  filter: blur(5px);
+  object-fit: cover;
+  width: 100vw;
+  max-height: 60vh;
+} */
 
 .container-text {
   position: absolute;
   top: 3vw;
-  left: 3vw;
+  left: 5vw;
   z-index: 999;
   color: white;
 }
 .container-text h1 {
   text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+#app {
+  margin-top: 6vh;
 }
