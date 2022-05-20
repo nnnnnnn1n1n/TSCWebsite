@@ -8,7 +8,7 @@ body {
   src: url('https://nnnnnnn1n1n.github.io/TSCWebsite/font/Serithai-Regular.ttf');
 }
 h1 {
-  font-size: 82px;
+  font-size: 102px;
   margin-bottom: 5px;
 }
 /* h1,
@@ -40,4 +40,11 @@ h2 {
 .detail {
   height: 50vh;
   background: linear-gradient(168deg, #ffffff 55%, #5090c5 0);
+}
+.detail i {
+  font-size: 50px;
+  padding: 15px;
+}
+.contact {
+  background-color: #5090c5;
 }
