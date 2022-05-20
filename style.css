@@ -8,7 +8,7 @@ body {
   src: url('https://nnnnnnn1n1n.github.io/TSCWebsite/font/Serithai-Regular.ttf');
 }
 h1 {
-  font-size: 102px;
+  font-size: 82px !important;
   margin-bottom: 5px;
 }
 /* h1,
@@ -47,4 +47,7 @@ h2 {
 }
 .contact {
   background-color: #5090c5;
+}
+iframe {
+  min-width: 300px;
 }
