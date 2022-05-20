@@ -2,6 +2,7 @@
   --t-color: #3d86ff;
   --s-color: #c02323;
   --c-color: #f1c95d;
+  --detail-color: #8bd4ff;
 }
 
 body {
@@ -42,12 +43,13 @@ h2 {
   text-align: center;
 }
 #app {
-  margin-top: 6vh;
+  padding-top: 10vh;
 }
-.detail,
-.add-friend {
+.detail {
   height: 50vh;
+  background: linear-gradient(168deg, var(--detail-color) 55%, #ffffff 0);
 }
+
 .detail i {
   font-size: 50px;
   padding: 15px;
@@ -59,10 +61,13 @@ h2 {
   /* background-color: var(--c-color); */
 }
 .add-friend {
-  background: linear-gradient(168deg, #ffffff 55%, #5090c5 0);
+  background: linear-gradient(168deg, #ffffff 55%, var(--t-color) 0);
+}
+.contactinfo {
+  background-color: var(--c-color);
 }
 .contact {
-  background-color: #5090c5;
+  background-color: var(--t-color);
 }
 iframe {
   min-width: 300px;
