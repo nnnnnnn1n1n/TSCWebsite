@@ -19,6 +19,9 @@ h1 {
   margin-bottom: 5px;
   font-weight: bolder;
 }
+p {
+  font-size: 130%;
+}
 /* h1,
 h2 {
   font-family: Lato;
@@ -70,7 +73,7 @@ h2 {
 .contact {
   background-color: var(--t-color);
   margin-top: -5px;
-    margin-bottom: -5px;
+  margin-bottom: -5px;
 }
 iframe {
   min-width: 300px;
