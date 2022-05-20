@@ -33,7 +33,7 @@ h2 {
 .container-text {
   position: absolute;
   top: 30%;
-  left: 5vw;
+  left: 7vw;
   z-index: 999;
   color: white;
 }
