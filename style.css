@@ -82,13 +82,21 @@ iframe {
 @media only screen and (max-width: 587px) {
   .banner {
     background-size: cover;
+    min-height: 80vh;
+  }
+  .container-text {
+    left: 3vw;
+    padding-right: 3vw;
+  }
+  .detail {
+    height: auto;
   }
   h1 {
-    font-size: 6rem !important;
+    font-size: 3rem !important;
     margin-bottom: 55px;
   }
   h2 {
-    font-size: 300%;
+    /* font-size: 300%; */
     margin-bottom: 50px;
   }
 }
