@@ -3,6 +3,7 @@
   --s-color: #c02323;
   --c-color: #f1c95d;
   --detail-color: #8bd4ff;
+  --sdark-color: #911313;
 }
 
 body {
@@ -27,7 +28,7 @@ h2 {
   font-family: Lato;
 } */
 .banner {
-  min-height: 60vh;
+  min-height: 85vh;
   position: relative;
   background: url('https://firebasestorage.googleapis.com/v0/b/techasomboonchai.appspot.com/o/20200725_185120.png?alt=media&token=aebb9a66-0eeb-41f4-92b5-9fcef8bbb5c7');
   background-size: 170%;
@@ -49,11 +50,15 @@ h2 {
 #app {
   padding-top: 10vh;
 }
+.intro {
+  height: auto;
+  background: var(--sdark-color);
+  /* background: linear-gradient(170deg, #1b81bd 0%, rgba(139, 212, 255, 1) 70%); */
+}
 .detail {
   height: 50vh;
   background: linear-gradient(168deg, var(--detail-color) 55%, white 0);
 }
-
 .detail i {
   font-size: 50px;
   padding: 15px;
@@ -69,6 +74,9 @@ h2 {
 }
 .contactinfo {
   background-color: var(--c-color);
+  box-shadow: 16px 15px 0px 1px var(--t-color);
+  -webkit-box-shadow: 16px 15px 0px 1px var(--t-color);
+  -moz-box-shadow: 16px 15px 0px 1px var(--t-color);
 }
 .contact {
   background-color: var(--t-color);
@@ -91,6 +99,9 @@ iframe {
   .detail {
     height: auto;
   }
+  .contactinfo {
+    padding: 1rem 10px !important;
+  }
   h1 {
     font-size: 3rem !important;
     margin-bottom: 55px;
@@ -98,5 +109,8 @@ iframe {
   h2 {
     /* font-size: 300%; */
     margin-bottom: 50px;
+  }
+  iframe {
+    min-width: 100% !important;
   }
 }

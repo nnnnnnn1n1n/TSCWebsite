@@ -33,6 +33,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link
       rel="icon"
       type="image/png"
@@ -83,28 +85,66 @@
       style="width: 100px"
     />
     <div class="container p-3">
-      <div class="container-text">
+      <div class="container-text" data-aos="fade-up">
         <h1>บริษัทเตชะสมบูรณ์ชัย</h1>
         <h2>ร้านขายอุปกรณ์ก่อสร้างในจังหวัดกาญจนบุรี</h2>
         <!--<h3>จำหน่ายท่อพีวีซี สีผสม และอุปกรณ์ก่อสร้าง</h3>-->
       </div>
     </div>
   </div>
-
+  <section class="intro">
+    <div class="container pt-5 pb-5">
+      <div class="row">
+        <div class="col-5 text-white pt-5 pb-5">
+          <h2><b>ประสบการณ์มามากกว่า 20 ปี</b></h2>
+          <h3>ให้บริการลูกค้าในใจกลางเมืองกาญจนบุรี</h3>
+        </div>
+        <div class="col-7">
+          <img
+            width="100%"
+            src="https://firebasestorage.googleapis.com/v0/b/techasomboonchai.appspot.com/o/1652935131851.jpg?alt=media&token=abb1724e-5da3-4257-950d-76c1bef466e0"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="detail">
-    <div id="app"></div>
+    <div
+      id="app"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+    ></div>
     <div class="container">
       <div class="row text-center">
         <div class="col-sm">
-          <i class="fab fa-confluence" style="color: #3d86ff"></i><br />
+          <i
+            class="fab fa-confluence"
+            style="color: #3d86ff"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          ></i
+          ><br />
           <p>ท่อพีวีซี</p>
         </div>
         <div class="col-sm">
-          <i class="fa-solid fa-brush" style="color: #c02323"></i><br />
+          <i
+            class="fa-solid fa-brush"
+            style="color: #c02323"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          ></i
+          ><br />
           <p>สีผสม</p>
         </div>
         <div class="col-sm">
-          <i class="fa-solid fa-screwdriver-wrench" style="color: #f1c95d"></i
+          <i
+            class="fa-solid fa-screwdriver-wrench"
+            style="color: #f1c95d"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          ></i
           ><br />
           <p>อุปกรณ์ก่อสร้าง</p>
         </div>
