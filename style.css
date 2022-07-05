@@ -70,7 +70,7 @@ h2 {
   /* background-color: var(--c-color); */
 }
 .add-friend {
-  background: linear-gradient(168deg, white 55%, var(--t-color) 0);
+  background: linear-gradient(168deg, white 55%, var(--detail-color) 0);
 }
 .contactinfo {
   background-color: var(--c-color);
@@ -79,7 +79,7 @@ h2 {
   -moz-box-shadow: 16px 15px 0px 1px var(--t-color);
 }
 .contact {
-  background-color: var(--t-color);
+  background-color: var(--detail-color);
   margin-top: -5px;
   margin-bottom: -5px;
 }
