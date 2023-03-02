@@ -8,13 +8,13 @@
 
 body {
   margin: 0px;
-  font-family: 'Serithai', sans-serif !important;
+  font-family: 'Noto Serif Thai', serif;
   overflow-x: hidden;
 }
-@font-face {
+/* @font-face {
   font-family: 'Serithai';
   src: url('https://nnnnnnn1n1n.github.io/TSCWebsite/font/Serithai-Regular.ttf');
-}
+} */
 h1 {
   font-size: 5rem !important;
   margin-bottom: 5px;
